@@ -1,0 +1,34 @@
+# Backup and temporary files (ignored everywhere)
+*~
+*.swp
+*.bak
+*.tmp
+*.out
+*.o
+*.a
+*.exe
+
+# Editor settings (ignored everywhere)
+**/.vscode/
+
+# macOS metadata files (ignored everywhere)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Tags files
+tags
+TAGS
+
+# Build outputs (ignored in all project subdirectories)
+**/objs/
+**/debug/
+**/*.dSYM/
+
+# Test and debug files (ignored everywhere EXCEPT in src directories)
+*test*
+*debug*
+!**/src/**/*test*
+!**/src/**/*debug*
